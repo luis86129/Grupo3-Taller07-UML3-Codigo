@@ -8,8 +8,6 @@ public abstract class Usuario {
 
     public boolean login() { return true; }
     public boolean logOut() { return true; }
-
-    
     public String getUsuario() { return usuario; }
     public void setUsuario(String usuario) { this.usuario = usuario; }
     public String getContrasena() { return contrasena; }
